@@ -1,0 +1,15 @@
+input_files_dict:
+  "PDBBind": "/data1/brian/PLM-PLI/data/PDBBind/pafnucy_total_rdkit-smiles-v1.csv"
+  "Kinase": "/data1/brian/PLM-PLI/data/Kinase/kinase_rdkit-smiles.csv"
+  "DUDE": "/data1/brian/PLM-PLI/data/DUDE/dude_rdkit-smiles.csv"
+  "GPCR": "/data1/brian/PLM-PLI/data/GPCR/GPCR_rdkit-smiles.csv"
+
+p_dropout: 0.3 # 0.4
+TASK: 'label'  # target to predict
+SMILES: "rdkit_smiles"  # drug SMILES to input
+ID: 'PDB-ID'
+
+# GAT parameters
+radius: 2  # the iteration num of atom embedding
+T: 2  # # the iteration num of molecule embedding
+fingerprint_dim: 150

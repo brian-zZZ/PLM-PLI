@@ -1,0 +1,15 @@
+# torch # ==1.11.0+cu113
+transformers==4.26.0
+fair-esm==0.4.0
+tape-proteins
+matplotlib==3.7.1
+numpy==1.24.2
+pandas==2.0.0
+POT==0.9.0
+PyYAML==6.0
+rdkit==2022.9.5
+s3transfer==0.6.1
+scikit-learn==1.2.2
+scipy==1.10.1
+seaborn==0.12.2
+sentencepiece
