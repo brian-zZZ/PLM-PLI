@@ -45,3 +45,14 @@ For more input parameter settings, please refer to `config.py`.
 
 ## Acknowledgement
 The SOFTWARE will be used for teaching or not-for-profit research purposes only. Permission is required for any commercial use of the Software.
+
+## Citations
+If you use our method in your research, please cite our paper:
+```BibTex
+@article{zhang2023protein,
+  author={Zhang, Weihong and Hu, Fan and Li, Wang and Yin, Peng},
+  title={Does protein pretrained language model facilitate the prediction of protein-ligand interaction?},
+  year={2023},
+  journal={Methods},
+}
+```
